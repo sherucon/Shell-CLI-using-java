@@ -26,7 +26,7 @@ public class Main {
                     System.out.println(input.split(" ")[1] + " is a shell builtin");
                 }
                 else{
-                    System.out.println(input.split(" ")[1] + ": command not found"); //this should work. it works on my computer
+                    System.out.println(input.split(" ")[1] + ": not found");
                 }
             }
 
