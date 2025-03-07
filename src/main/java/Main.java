@@ -25,8 +25,11 @@ public class Main {
                 if(valid_cmd.contains(input.split(" ")[1])){
                     System.out.println(input.split(" ")[1] + " is a shell builtin");
                 }
+                else{
+                    System.out.println(input.split(" ")[1] + ": command not found");
+                }
             }
-            
+
             else{
                 System.out.println(input + ": command not found");
             }
